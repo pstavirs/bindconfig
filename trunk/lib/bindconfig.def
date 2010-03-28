@@ -1,0 +1,4 @@
+LIBRARY bindconfig
+EXPORTS
+bindingStatus
+setBindingStatus

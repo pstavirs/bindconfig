@@ -1,0 +1,16 @@
+TARGETNAME=bindconfig
+TARGETTYPE=PROGRAM
+
+UMTYPE=console
+UMENTRY=main
+
+TARGETLIBS= $(SDK_LIB_PATH)\ole32.lib \
+            $(SDK_LIB_PATH)\shlwapi.lib \
+            $(SDK_LIB_PATH)\uuid.lib \
+
+USE_MSVCRT=1
+INCLUDES=..\lib
+SOURCES=\
+    ..\libbindconfig.cpp \
+    ..\bindconfig.cpp
+
