@@ -11,6 +11,7 @@ TARGETLIBS= $(SDK_LIB_PATH)\ole32.lib \
 USE_MSVCRT=1
 INCLUDES=..\lib
 SOURCES=\
+    ..\bindconfig.rc \
     ..\libbindconfig.cpp \
     ..\bindconfig.cpp
 
