@@ -1,4 +1,4 @@
-<p align='center'><a href='http://bit.ly/oYBQMe'><img src='http://dl.dropbox.com/u/3968285/banner_ostinato.png' alt='Ostinato - An open-source Packet Crafter/Traffic Generator' /></a></p>
+# Overview #
 bindconfig is a command line tool to view, enable and disable bindings of windows network components using the INetCfg API.
 
 It is similar to the 'bindview' sample application that is shipped as part of the Windows WDK/DDK but is command line based instead of GUI based and supports only a subset of what bindview supports.
